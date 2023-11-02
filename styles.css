@@ -1,7 +1,14 @@
 #grid-container{
     display: grid;
+    grid-template-columns: repeat(16, 1fr); /* Creates 16 columns */
+    grid-template-rows: repeat(16, 1fr); /* Creates 16 rows */
+    gap: 1px; /* Gap between grid cells */
 }
 
 .grid-item{
-
+    width: 50px; /* Adjust cell width as needed */
+    height: 50px; /* Adjust cell height as needed */
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
 }
