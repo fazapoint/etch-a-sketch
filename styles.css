@@ -1,15 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
 #grid-container{
     display: grid;
-    grid-template-columns: repeat(16, 1fr); /* Creates 16 columns */
-    grid-template-rows: repeat(16, 1fr); /* Creates 16 rows */
-    width: 800px;
-    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .grid-item{
-    width: 50px; /* Adjust cell width as needed */
-    height: 50px; /* Adjust cell height as needed */
-    border: 1px solid black;
+
+}
+
+#control-container{
     text-align: center;
-    line-height: 30px;
+}
+
+h1{
+    text-align: center;
 }
