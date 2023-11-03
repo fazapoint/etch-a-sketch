@@ -7,15 +7,18 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Etch a Sketch</h1>
-    <div id="grid-container"></div>
+<body> 
+    <div id="wrapper">
+        <h1>Etch a Sketch</h1>
+        <div id="grid-container"></div>
+    </div>
     <div id="control-container">
         <input id="sizeSlider" type="range" value="16" min="1" max="100" />
         <div>
             <p id="sliderValue">16x16</p>
             <button id="btnColorPick" value="black">color: black</button>
             <button id="btnClear">clear</button>
+            <button id="btnRandom">random colors off</button>
         </div>
     </div>
 </body>
