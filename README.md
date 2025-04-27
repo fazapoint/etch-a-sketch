@@ -1,4 +1,5 @@
 # etch-a-sketch
+From The Odin Project
 etch a sketch in javascript for the odin project submission! You can see the live preview [here](https://fazapoint.github.io/etch-a-sketch/)
 
 What i did in this project:
